@@ -1,0 +1,53 @@
+body{
+	background-image: url(images/youname.jpg);
+	background-position:center;
+}
+.div-box{
+	position:relative;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
+.poem{
+	float:left;
+	color:red;
+	width:100%;
+	margin-top:6%;
+	line-height:100%;
+	font-size:90%;
+}
+span{
+	font-size:12px;
+	font-style:italic;
+}
+#heart{
+	float:left;
+	position:relative;
+	width:100%;
+	height:90%;
+	margin:0 auto;
+}
+#heart:before{
+	position:absolute;
+	content:"";
+	left:50%;
+	top:5px;
+	width:50px;
+	height:80px;
+	background:red;
+	border-radius:50px 50px 0 0;
+	transform:rotate(-45deg);
+	transform-origin:0 100%;
+}
+#heart:after{
+	position:absolute;
+	content:"";
+	left:50%;
+	top:5px;
+	width:50px;
+	height:80px;
+	background:red;
+	border-radius:50px 50px 0 0;
+	transform:rotate(45deg);
+	transform-origin:50% 25%;
+}
