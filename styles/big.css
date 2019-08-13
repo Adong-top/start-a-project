@@ -1,4 +1,7 @@
-
+body{
+	background-image: url(../images/youname.gif);
+	background-position:center;
+}
 .div-box{
 	width:340px;
 	margin:0 auto;
