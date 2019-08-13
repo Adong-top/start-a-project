@@ -7,7 +7,8 @@
 }
 .poem{
 	float:left;
-	color:red;
+	color:#c00;
+	font-weight: bold;
 	width:100%;
 	margin-top:6%;
 	line-height:100%;

@@ -7,11 +7,15 @@ body{
 	margin:0 auto;
 }
 .poem{
-	color:red;
+	color:#c00;
 	width:100%;
+	font-weight: bold;
 	margin-top:15px;
 	line-height:1.5em;
 	font-size:18px;
+}
+ul{
+	list-style-type: none;
 }
 span{
 	font-size:12px;
